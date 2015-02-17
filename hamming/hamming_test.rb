@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 begin
-  require_relative 'hamming_zip'
+  require_relative 'hamming'
 rescue LoadError => e
   puts "\n\n#{e.backtrace.first} #{e.message}"
   puts DATA.read
